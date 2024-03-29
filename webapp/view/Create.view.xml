@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.teche.sd.project1.controller.create"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="Second Screen">
+        <content text="hello this is your second page">
+        <Button text="Back" press="handlback" />
+    </content>
+    </Page>
+</mvc:View>
