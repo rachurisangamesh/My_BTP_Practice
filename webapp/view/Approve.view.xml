@@ -3,24 +3,15 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <content>
-        <Select items="{y>/loadproData}">
+        <Select items="{localModel>/ProType}" change="handlechange">
             <items>
-            <core:Item text="{y>proname}"></core:Item>
+            <core:Item text="{localModel>proname}"></core:Item>
             </items>
         </Select>
 
             <!-- <Label text="Emp name"/>
             <Input /> -->
-            <List noDataText="Select your protein type" headerText="Protein list" mode="MultiSelect" items="{x>/loadData}">
-                <items>
-                    <ObjectListItem intro="{x>ProCode}" title="{x>ProName}" number="{x>Quantity}" > 
-                        <attributes>
-                            <ObjectAttribute text="Price = ${x>Price}" ></ObjectAttribute>
-                        </attributes>
-                    </ObjectListItem>
-                    
-                </items>
-            </List>
+           
             <Button text="Submit" press="handlsubmit" />
 
         </content>

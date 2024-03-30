@@ -3,6 +3,20 @@
     xmlns="sap.m">
     <Page id="page" title="Second Screen">
         <content text="hello this is your second page">
+
+
+         <List noDataText="Select your protein type" headerText="Protein list" mode="MultiSelect" items="{localModel>/ProteinTypes}">
+                <items>
+                    <ObjectListItem intro="{localModel>ProCode}" title="{localModel>ProductName}" number="{localModel>Quantity}" > 
+                        <attributes>
+                            <ObjectAttribute text="Price = ${localModel>Price}" ></ObjectAttribute>
+                        </attributes>
+                    </ObjectListItem>
+                    
+                </items>
+            </List>
+
+
         <Button text="Back" press="handlback" />
     </content>
     </Page>

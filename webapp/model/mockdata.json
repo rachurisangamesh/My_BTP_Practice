@@ -1,0 +1,70 @@
+{
+    "ProteinTypes":[
+        {
+         "ProductName":"ISO CMS",
+         "ProCode":"F6U",
+         "proLot" : "240151437",
+         "Price": 35,
+         "Quantity":400
+        },
+        {
+         "ProductName":"ISO V",
+         "ProCode":"N5E",
+         "proLot" : "240151439",
+         "Price": 40,
+         "Quantity":400
+        },
+        {
+         "ProductName":"CON CMS",
+         "ProCode":"USE",
+         "proLot" : "240151440",
+         "Price": 35,
+         "Quantity":700
+        },
+        {
+         "ProductName":"CON V",
+         "ProCode":"9X6",
+         "proLot" : "240151473",
+         "Price": 40,
+         "Quantity":200
+        }
+     ],   
+    "ProType":[
+        {
+        "proname":"Isolate"
+    },
+    {
+        "proname":"Concentrate"
+    },
+    {
+        "proname":"Greens"
+    },
+    {
+        "proname":"White Powderrs"
+    },
+    {
+        "proname":"Mass Gainers"
+    },
+    {
+        "proname":"Economy"
+    },
+    {
+        "proname":"CPre"
+    },
+    {
+        "proname":"BCAA"
+    },
+    {
+        "proname":"CIntra"
+    },
+    {
+        "proname":"Sups"
+    },
+    {
+        "proname":"limited"
+    },
+    {
+        "proname":"Micellar Casein"
+    }
+]  
+}
