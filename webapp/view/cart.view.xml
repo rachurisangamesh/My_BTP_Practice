@@ -1,0 +1,13 @@
+<mvc:View xmlns:core="sap.ui.core" controllerName="com.teche.sd.project1.controller.cart"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="This is your cart">
+        <content>
+        
+        <Button text="ClearCart" press="handlclearcart"/>
+        <Button text="back" press="handlback" />
+        <Button text="Chackout"/>
+        
+        </content>
+    </Page>
+</mvc:View>

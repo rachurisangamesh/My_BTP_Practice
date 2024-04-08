@@ -16,7 +16,8 @@
                 </items>
             </List>
 
-
+                
+            <Button text="Cart" press="cartpage" />
         <Button text="Back" press="handlback" />
     </content>
     </Page>

@@ -13,19 +13,12 @@ sap.ui.define([
                 routerObj.attachRoutePatternMatched(this.handleRoutMatch, this);
 
             },
-            handleRoutMatch: function(oEvent){
-                var sEmpId = oEvent.getParameter("arguments").empId;
-                var sEmpname = oEvent.getParameter("arguments").empName;
-                console.log(sEmpId);
-                console.log(sEmpname)
-            },
+            
+            
+            // handlback
             handlback: function(){
             var routerObj= this.getOwnerComponent().getRouter()
-                routerObj.navTo("RouteS1")
-            },
-            cartpage: function(){
-                var routerObj= this.getOwnerComponent().getRouter()
-                routerObj.navTo("RouteS3")
+                routerObj.navTo("RouteS2")
             }
         });
     });
